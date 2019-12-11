@@ -70,7 +70,7 @@ def get_common_args():
     parser.add_argument(
         '--target-module',
         type=str,
-        required=True,
+        default='run_default',
         help='Python module with routines to run benchmarks',
     )
 

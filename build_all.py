@@ -54,7 +54,7 @@ def build_parser():
     parser.add_argument(
         '--arch',
         type=str,
-        required=True,
+        default='default',
         help='The architecture for which to build',
     )
     parser.add_argument(
